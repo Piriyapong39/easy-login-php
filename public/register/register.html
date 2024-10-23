@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <!-- Import jquery -->
+    <script src="../../jquery/jquery-3.7.1.min.js"></script>
+
+    <!-- External css -->
+     <link rel="stylesheet" href="register.css">
+
+     <!-- Internal css -->
+    <style>
+
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div>
+
+            <!-- form start from here -->
+            <form class="register-form">
+                <h2 style="font-size: 30px;">Register form</h2>
+                <div class="container-inside-form">
+                    <label for="email">Email: </label>  
+                    <input type="text" name="email" placeholder="Email">
+                </div>
+                <div class="container-inside-form">
+                    <label for="password">Password: </label>
+                    <input type="password" name="password">
+                <div class="container-inside-form">
+                <div>
+                    <label for="first_name">First Name: </label>
+                    <input type="text" name="first_name">
+                <div class="container-inside-form">
+                <div>
+                    <label for="last_name">Last Name: </label>
+                    <input type="text" name="last_name">
+                <div class="container-inside-form">
+                <div>
+                    <label for="salary">Salary: </label>
+                    <input type="number" name="salary" step="0.01">
+                <div class="container-inside-form">
+                <div>
+                    <label for="department">Department: </label>
+                    <select name="department" id="">
+                        <option value="AE">AE</option>
+                        <option value="Sale">Sale</option>
+                        <option value="Programmer">Programmer</option>
+                        <option value="Engineering">Engineering</option>
+                    </select>
+                <div class="container-inside-form">
+                    <div>
+                        <label>Sex: </label>
+                    </div>
+                    <div style="margin-left: 20px;">
+                        <input type="radio" name="sex" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" name="sex" value="female">
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+                <div class="container-inside-form">
+                    <label for="">Hobbit: </label>
+                    <div style="margin-top: 4px;">
+                        <input type="checkbox" value="sleep" name="hobbit">
+                        <label for="sleep">Sleep</label>
+                        <input type="checkbox" value="watch tv" name="hobbit">
+                        <label for="watch tv">Watch Tv</label>
+                        <input type="checkbox" value="play game" name="hobbit">
+                        <label for="play game">Play game</label>
+                    </div>
+                </div>
+                <button id="register-btn">Register</button>
+                <a href="http://localhost:8080/public/login/login.html">Back to login</a>
+            </form>
+            <!-- form end here -->
+             
+        </div>
+    </div>
+
+    <!-- Import script -->
+    <script src="./register.js"></script>
+</body>
+</html>
