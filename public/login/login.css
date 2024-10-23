@@ -1,0 +1,45 @@
+
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.login-form{
+    border: 2px solid lightblue;
+    padding: 100px 100px;
+    border-radius: 10px;
+
+}
+
+.inside-form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.login-form:hover{
+    border: 2px solid lightblue;
+    padding: 100px 100px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px lightblue;
+}
+
+.login-form h2{
+    text-align: center;
+}
+
+#login-btn{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+#login-btn:hover{
+    background-color: #333;
+    color: white;
+}
+

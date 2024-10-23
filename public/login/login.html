@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hi this is log in page</title>
+    <link rel="stylesheet" href="./login.css">
+    <script src="../../jquery/jquery-3.7.1.min.js"></script>
 </head>
 <body>
-    <h1>Login</h1>
     <div class="container">
+
         <div>
-            <form>
-                <div>
+            <form class="login-form">
+                <h2>Login</h2>
+                <div class="inside-form">
                     <label for="">Email: </label>
-                    <input type="text">
+                    <input type="text" name="email">
                 </div>
-                <div>
+                <div class="inside-form">
                     <label for="">Password: </label>
-                    <input type="password">
+                    <input type="password" name="password">
                 </div>
+                <button type="click" id="login-btn">Login</button>
+                <a href="http://localhost:8080/public/register/register.html">Register</a>
             </form>
         </div>
     </div>
+    <script src="./login.js"></script>
 </body>
 </html>
